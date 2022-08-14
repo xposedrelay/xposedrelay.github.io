@@ -1,0 +1,29 @@
+baseURL = 'http://example.org/'
+languageCode = 'es-es'
+title = "Martin's Biography"
+theme = "hallo"
+defaultContentLanguage = "es"
+[Author]
+    name = "Soy Martín"
+[params]
+    greeting = "Hola!"
+     [[params.links]]
+        icon = "instagram"
+        title = "instagram"
+        url = "https://www.instagram.com/xp0sed_relay43/"
+    [[params.links]]
+        icon = "discord"
+        title = "Discord"
+        url = "https://discordapp.com/users/269226809197985793/"
+    [[params.links]]
+        icon = "lastfm"
+        title = "Mi música"
+        url = "https://www.last.fm/user/xp0sed_relay43"
+    [[params.links]]
+        icon = "telegram"
+        title = "Telegram"
+        url = "https://t.me/xp0sed_relay43"
+[params.colors]
+    background = "#5D1AC9"  
+    foreground = "#FEFCF9"
+    hover = "#d291bc"      
